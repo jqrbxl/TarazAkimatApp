@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		FDCFBA462ED1E9C5007717E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCFBA282ED1E9C3007717E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCFBA2F2ED1E9C3007717E8;
+			remoteInfo = "Taraz Akimat";
+		};
+		FDCFBA502ED1E9C5007717E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCFBA282ED1E9C3007717E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCFBA2F2ED1E9C3007717E8;
+			remoteInfo = "Taraz Akimat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDCFBA302ED1E9C3007717E8 /* Taraz Akimat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taraz Akimat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCFBA452ED1E9C5007717E8 /* Taraz AkimatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCFBA4F2ED1E9C5007717E8 /* Taraz AkimatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FDCFBA322ED1E9C3007717E8 /* Taraz Akimat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Taraz Akimat";
+			sourceTree = "<group>";
+		};
+		FDCFBA482ED1E9C5007717E8 /* Taraz AkimatTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Taraz AkimatTests";
+			sourceTree = "<group>";
+		};
+		FDCFBA522ED1E9C5007717E8 /* Taraz AkimatUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Taraz AkimatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCFBA2D2ED1E9C3007717E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA422ED1E9C5007717E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA4C2ED1E9C5007717E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCFBA272ED1E9C3007717E8 = {
+			isa = PBXGroup;
+			children = (
+				FDCFBA322ED1E9C3007717E8 /* Taraz Akimat */,
+				FDCFBA482ED1E9C5007717E8 /* Taraz AkimatTests */,
+				FDCFBA522ED1E9C5007717E8 /* Taraz AkimatUITests */,
+				FDCFBA312ED1E9C3007717E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCFBA312ED1E9C3007717E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFBA302ED1E9C3007717E8 /* Taraz Akimat.app */,
+				FDCFBA452ED1E9C5007717E8 /* Taraz AkimatTests.xctest */,
+				FDCFBA4F2ED1E9C5007717E8 /* Taraz AkimatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCFBA2F2ED1E9C3007717E8 /* Taraz Akimat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCFBA592ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz Akimat" */;
+			buildPhases = (
+				FDCFBA2C2ED1E9C3007717E8 /* Sources */,
+				FDCFBA2D2ED1E9C3007717E8 /* Frameworks */,
+				FDCFBA2E2ED1E9C3007717E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FDCFBA322ED1E9C3007717E8 /* Taraz Akimat */,
+			);
+			name = "Taraz Akimat";
+			packageProductDependencies = (
+			);
+			productName = "Taraz Akimat";
+			productReference = FDCFBA302ED1E9C3007717E8 /* Taraz Akimat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCFBA442ED1E9C5007717E8 /* Taraz AkimatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCFBA5C2ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz AkimatTests" */;
+			buildPhases = (
+				FDCFBA412ED1E9C5007717E8 /* Sources */,
+				FDCFBA422ED1E9C5007717E8 /* Frameworks */,
+				FDCFBA432ED1E9C5007717E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCFBA472ED1E9C5007717E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FDCFBA482ED1E9C5007717E8 /* Taraz AkimatTests */,
+			);
+			name = "Taraz AkimatTests";
+			packageProductDependencies = (
+			);
+			productName = "Taraz AkimatTests";
+			productReference = FDCFBA452ED1E9C5007717E8 /* Taraz AkimatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDCFBA4E2ED1E9C5007717E8 /* Taraz AkimatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCFBA5F2ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz AkimatUITests" */;
+			buildPhases = (
+				FDCFBA4B2ED1E9C5007717E8 /* Sources */,
+				FDCFBA4C2ED1E9C5007717E8 /* Frameworks */,
+				FDCFBA4D2ED1E9C5007717E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCFBA512ED1E9C5007717E8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FDCFBA522ED1E9C5007717E8 /* Taraz AkimatUITests */,
+			);
+			name = "Taraz AkimatUITests";
+			packageProductDependencies = (
+			);
+			productName = "Taraz AkimatUITests";
+			productReference = FDCFBA4F2ED1E9C5007717E8 /* Taraz AkimatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCFBA282ED1E9C3007717E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					FDCFBA2F2ED1E9C3007717E8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					FDCFBA442ED1E9C5007717E8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FDCFBA2F2ED1E9C3007717E8;
+					};
+					FDCFBA4E2ED1E9C5007717E8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FDCFBA2F2ED1E9C3007717E8;
+					};
+				};
+			};
+			buildConfigurationList = FDCFBA2B2ED1E9C3007717E8 /* Build configuration list for PBXProject "Taraz Akimat" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCFBA272ED1E9C3007717E8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FDCFBA312ED1E9C3007717E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCFBA2F2ED1E9C3007717E8 /* Taraz Akimat */,
+				FDCFBA442ED1E9C5007717E8 /* Taraz AkimatTests */,
+				FDCFBA4E2ED1E9C5007717E8 /* Taraz AkimatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCFBA2E2ED1E9C3007717E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA432ED1E9C5007717E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA4D2ED1E9C5007717E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCFBA2C2ED1E9C3007717E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA412ED1E9C5007717E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCFBA4B2ED1E9C5007717E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCFBA472ED1E9C5007717E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCFBA2F2ED1E9C3007717E8 /* Taraz Akimat */;
+			targetProxy = FDCFBA462ED1E9C5007717E8 /* PBXContainerItemProxy */;
+		};
+		FDCFBA512ED1E9C5007717E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCFBA2F2ED1E9C3007717E8 /* Taraz Akimat */;
+			targetProxy = FDCFBA502ED1E9C5007717E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDCFBA572ED1E9C5007717E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDCFBA582ED1E9C5007717E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCFBA5A2ED1E9C5007717E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taraz Akimat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-Akimat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDCFBA5B2ED1E9C5007717E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Taraz Akimat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-Akimat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDCFBA5D2ED1E9C5007717E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-AkimatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taraz Akimat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taraz Akimat";
+			};
+			name = Debug;
+		};
+		FDCFBA5E2ED1E9C5007717E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-AkimatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taraz Akimat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Taraz Akimat";
+			};
+			name = Release;
+		};
+		FDCFBA602ED1E9C5007717E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-AkimatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taraz Akimat";
+			};
+			name = Debug;
+		};
+		FDCFBA612ED1E9C5007717E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-AkimatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taraz Akimat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCFBA2B2ED1E9C3007717E8 /* Build configuration list for PBXProject "Taraz Akimat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBA572ED1E9C5007717E8 /* Debug */,
+				FDCFBA582ED1E9C5007717E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCFBA592ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz Akimat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBA5A2ED1E9C5007717E8 /* Debug */,
+				FDCFBA5B2ED1E9C5007717E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCFBA5C2ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz AkimatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBA5D2ED1E9C5007717E8 /* Debug */,
+				FDCFBA5E2ED1E9C5007717E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCFBA5F2ED1E9C5007717E8 /* Build configuration list for PBXNativeTarget "Taraz AkimatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCFBA602ED1E9C5007717E8 /* Debug */,
+				FDCFBA612ED1E9C5007717E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCFBA282ED1E9C3007717E8 /* Project object */;
+}
