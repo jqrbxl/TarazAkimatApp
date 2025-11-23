@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FDCFBAE02ED1FB66007717E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBADF2ED1FB66007717E8 /* Assets.xcassets */; };
+		FDCFBB4C2ED20E98007717E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB4A2ED20E98007717E8 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		FDCFBA462ED1E9C5007717E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +32,10 @@
 		FDCFBA302ED1E9C3007717E8 /* Taraz Akimat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taraz Akimat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFBA452ED1E9C5007717E8 /* Taraz AkimatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFBA4F2ED1E9C5007717E8 /* Taraz AkimatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCFBADF2ED1FB66007717E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCFBB4B2ED20E98007717E8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDCFBB4E2ED20F7B007717E8 /* kk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = kk; path = kk.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDCFBB562ED22207007717E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +84,8 @@
 		FDCFBA272ED1E9C3007717E8 = {
 			isa = PBXGroup;
 			children = (
+				FDCFBB4A2ED20E98007717E8 /* Localizable.strings */,
+				FDCFBADF2ED1FB66007717E8 /* Assets.xcassets */,
 				FDCFBA322ED1E9C3007717E8 /* Taraz Akimat */,
 				FDCFBA482ED1E9C5007717E8 /* Taraz AkimatTests */,
 				FDCFBA522ED1E9C5007717E8 /* Taraz AkimatUITests */,
@@ -175,6 +186,7 @@
 				TargetAttributes = {
 					FDCFBA2F2ED1E9C3007717E8 = {
 						CreatedOnToolsVersion = 16.2;
+						LastSwiftMigration = 1620;
 					};
 					FDCFBA442ED1E9C5007717E8 = {
 						CreatedOnToolsVersion = 16.2;
@@ -187,11 +199,13 @@
 				};
 			};
 			buildConfigurationList = FDCFBA2B2ED1E9C3007717E8 /* Build configuration list for PBXProject "Taraz Akimat" */;
-			developmentRegion = en;
+			developmentRegion = ru;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				kk,
 			);
 			mainGroup = FDCFBA272ED1E9C3007717E8;
 			minimizedProjectReferenceProxies = 1;
@@ -212,6 +226,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDCFBAE02ED1FB66007717E8 /* Assets.xcassets in Resources */,
+				FDCFBB4C2ED20E98007717E8 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +283,19 @@
 			targetProxy = FDCFBA502ED1E9C5007717E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCFBB4A2ED20E98007717E8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCFBB4B2ED20E98007717E8 /* ru */,
+				FDCFBB4E2ED20F7B007717E8 /* kk */,
+				FDCFBB562ED22207007717E8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		FDCFBA572ED1E9C5007717E8 /* Debug */ = {
@@ -393,9 +422,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Taraz Akimat/Preview Content\"";
+				DEVELOPMENT_TEAM = W9769WS2KV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -411,6 +442,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-Akimat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -421,9 +454,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Taraz Akimat/Preview Content\"";
+				DEVELOPMENT_TEAM = W9769WS2KV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -439,6 +474,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jqrbxl.Taraz-Akimat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

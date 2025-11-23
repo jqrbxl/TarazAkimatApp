@@ -1,0 +1,17 @@
+"tab_news" = "Жаңалықтар";
+"tab_requests" = "Өтінімдер";
+"tab_appointments" = "Қабылдауға жазылу";
+"tab_polls" = "Сауалнамалар";
+"tab_profile" = "Профиль";
+"settings_language" = "Интерфейс тілі";
+"language_ru" = "Орыс тілі";
+"language_kz" = "Қазақ тілі";
+"language_en" = "Ағылшын";
+"news_title" = "Тараз Жаңалықтары";
+"profile_activity" = "Менің белсенділігім";
+"profile_settings" = "Баптаулар";
+"profile_edit" = "Профильді өзгерту";
+"profile_logout" = "Аккаунттан шығу";
+"auth_title" = "Авторизация";
+"auth_subtitle" = "Қала тұрғындары үшін кіру";
+"auth_hint" = "Демонстрация үшін телефон нөмірін енгізу жеткілікті, код кез келген болуы мүмкін.";

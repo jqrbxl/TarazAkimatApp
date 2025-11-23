@@ -1,0 +1,17 @@
+"tab_news" = "Новости";
+"tab_requests" = "Заявки";
+"tab_appointments" = "Запись";
+"tab_polls" = "Опросы";
+"tab_profile" = "Аккаунт";
+"settings_language" = "Язык интерфейса";
+"language_ru" = "Русский";
+"language_kz" = "Қазақ тілі";
+"language_en" = "Англиский";
+"news_title" = "Новости акимата";
+"profile_activity" = "Моя активность";
+"profile_settings" = "Настройки";
+"profile_edit" = "Редактировать профиль";
+"profile_logout" = "Выйти из аккаунта";
+"auth_title" = "Авторизация";
+"auth_subtitle" = "Вход для жителей города";
+"auth_hint" = "Для демонстрации достаточно ввести номер телефона, код можно ввести любой.";

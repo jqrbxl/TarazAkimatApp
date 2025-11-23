@@ -1,0 +1,17 @@
+"tab_news" = "News";
+"tab_requests" = "Requests";
+"tab_appointments" = "Appointments";
+"tab_polls" = "Polls";
+"tab_profile" = "Profile";
+"settings_language" = "Interface Language";
+"language_ru" = "Russian";
+"language_kz" = "Qazaq";
+"language_en" = "English";
+"news_title" = "News of Akimat";
+"profile_activity" = "Activity";
+"profile_settings" = "Settings";
+"profile_edit" = "Edit";
+"profile_logout" = "Logout";
+"auth_title" = "Login";
+"auth_subtitle" = "For citizen login";
+"auth_hint" = "put ur phone just for demo.";
