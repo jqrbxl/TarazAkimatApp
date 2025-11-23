@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD813B482ED3D01D002E5A29 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = FD813B472ED3D00D002E5A29 /* .gitignore */; };
 		FDCFBAE02ED1FB66007717E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBADF2ED1FB66007717E8 /* Assets.xcassets */; };
 		FDCFBB4C2ED20E98007717E8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCFBB4A2ED20E98007717E8 /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD813B472ED3D00D002E5A29 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		FDCFBA302ED1E9C3007717E8 /* Taraz Akimat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taraz Akimat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFBA452ED1E9C5007717E8 /* Taraz AkimatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFBA4F2ED1E9C5007717E8 /* Taraz AkimatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taraz AkimatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +86,7 @@
 		FDCFBA272ED1E9C3007717E8 = {
 			isa = PBXGroup;
 			children = (
+				FD813B472ED3D00D002E5A29 /* .gitignore */,
 				FDCFBB4A2ED20E98007717E8 /* Localizable.strings */,
 				FDCFBADF2ED1FB66007717E8 /* Assets.xcassets */,
 				FDCFBA322ED1E9C3007717E8 /* Taraz Akimat */,
@@ -227,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDCFBAE02ED1FB66007717E8 /* Assets.xcassets in Resources */,
+				FD813B482ED3D01D002E5A29 /* .gitignore in Resources */,
 				FDCFBB4C2ED20E98007717E8 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
